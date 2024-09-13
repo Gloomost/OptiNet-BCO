@@ -22,13 +22,13 @@
 
 
 ### Yen-s-k-shortest-paths-algorithm
+####     C   D   E   F   G   H
 #### C  [inf 3   2   inf inf inf]
 #### D  [inf inf inf 4   inf inf]
 #### E  [inf 1   inf 2   3   inf]
 #### F  [inf inf inf inf 2   1  ]
 #### G  [inf inf inf inf inf 2  ]
 #### H  [inf inf inf inf inf inf]
-####     C   D   E   F   G   H
 #### 调用K条最短路径算法，源C，目的H，K为3。B为偏离路径集合。
 #### 
 #### 1.通过Dijkstra算法计算得到最短路径A^1：C-E-F-H，其中，花费为5，A[1] = C-E-F-H；
